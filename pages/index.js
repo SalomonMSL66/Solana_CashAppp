@@ -9,11 +9,11 @@ import SearchBar from "../components/home/searchBar";
 import NewTransactionModal from "../components/transaction/newTransactionModal";
 import TransactionsList from "../components/transaction/transactionsList";
 import TransactionQRModal from "../components/transaction/transactionQRModal";
-import Remesas from "../components/main/remesas/remesas";
+import Remesas from "@/components/main/remesas/remesas";
 
 /* Methods */
-import { getAvatarUrl } from "../functions/getAvatarUrl";
-import { useCashApp } from "./hooks/cashapp";
+import { getAvatarUrl } from "@/functions/getAvatarUrl";
+import { useCashApp } from "@/hooks/cashapp";
 //import FabIcon from "../components/chat/fab/fabIcon";
 
 export default function Home() {
